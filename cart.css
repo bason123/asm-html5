@@ -1,0 +1,472 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ /* background-color: #f4f8fa; */
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+header{
+    height: 195px;
+    background: white;
+    
+}
+header .anhbia{
+    width: 100%;
+}
+.header_item{
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+.logo{
+    width: 93px;
+    height: 61px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.thetim{
+    width: 700px;
+    margin-left: 300px;
+    margin-top: -45px;
+}
+.thetim input{
+    width: 70%;
+    height: 35px;
+    padding-left: 10px ;
+}
+.thetim button{
+   width: 18%;
+   height: 35px;
+   margin-left: -15px;
+   background: red;
+   border-radius: 5px;
+   border: none;
+   color: white;
+}
+.thetim button i{
+    margin-right: 10px;
+}
+.canhan {
+    width: 15%;
+    height: 66px;
+    position: absolute;
+    top: 26%;
+    left: 71%; 
+    font-size: 18px;
+    
+}
+.canhan ul{
+    margin-top: 8px;
+    margin-left: 45px; 
+}
+.canhan>ul>li{
+    list-style: none;
+}
+.canhan>ul>li:hover>ul{
+   display: block;
+}
+.canhan>ul>li>ul{
+    position: absolute;
+    z-index: 2;
+    background: rgb(255, 255, 255);
+    list-style: none;
+    width: 300px;
+    border-radius: 5px;
+    margin-left: unset;
+    box-shadow: -5px 0px 15px rgb(75, 73, 73);
+    display: none;
+    margin-top: unset;
+}
+.canhan>ul>li>ul>li{
+    width: 93%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.canhandangky{
+    background: rgb(255, 162, 0);
+}
+.canhanfacebook{
+    background: rgb(51, 0, 255);
+}
+.canhangoogle{
+    background: rgb(246, 16, 16);
+}
+.canhanfacebook>a{
+    color: white;
+    font-weight: bold;
+}
+.canhangoogle>a{
+    color: white;
+    font-weight: bold;
+}
+.canhan>ul>li>ul>li>a{
+    text-decoration: none; 
+    font-size: 18px;
+}
+.canhan>ul>li>ul>li>a>i{
+    margin-right: 15px;
+}
+
+.canhan #icon_user{
+    height: 37px;
+    position: absolute;
+    top: 12%;
+    margin-left: 8px;
+}
+.canhan span{
+    position: absolute;
+    left: 23%;
+    top: 10%;
+}
+
+.canhan #icon_down{
+    position: absolute;
+    left: 49%;
+    top: 40%; 
+    margin-left: 18px;
+    
+}
+.giohang{
+    position: relative;
+    position: absolute;
+    top: 49%;
+    right: 7%;
+}
+.giohang>a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.header_sp{
+    position: absolute;
+    width: 310px;
+    height: 39px;
+    background: rgb(80, 80, 80);
+    top: 143%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* .header_sp:hover>.header_sp1>section{
+    display: block;
+} */
+/* .header_sp:hover>.header_sp1>img{
+    margin-top: -37px;
+} */
+/* .header_sp:hover>.header_sp1>span{
+    margin-top: -37px;
+} */
+.header_sp> .header_sp1{
+    position: relative;
+    margin-top: -3px;
+}
+.header_sp1> img{
+    position: absolute;
+    width: 38px;
+    height: 35px;
+    left: 30px;
+    top: 1px;
+    /* margin-top: -37px; */
+    margin-top: 3px;
+}
+.header_sp1>span{
+    position: absolute;
+    margin-left: 16px;
+    padding: 5px;
+    font-size: 17px;
+    color: white;
+    left: 54px;
+    top: 4px;
+    margin-top: 3px;
+    /* margin-top: -37px; */
+}
+.header_item> ul{
+   list-style: none;
+   display: flex;
+   position: absolute;
+   top: 143%;
+   left: 24%;
+   background: #CCCCCC;
+   border-radius: 5px;
+}
+.item1{
+    margin-left: 52px;
+ }
+.header_item> ul> li{
+    /* padding-left: 30px; */
+    font-size: 20px;
+    padding: 8px;
+ }
+
+ 
+
+section{
+    width: 90%;
+    margin: auto;
+    position: relative;
+    margin-top: 42px;
+    margin-left: -1px;
+    display: none;
+ }
+aside>ul{
+    width: 22%;
+    list-style: none;
+    background: red;
+    border-radius: 5px;
+    /* display: none; */
+}
+aside>ul>li{
+    border-bottom:1px solid #f2f2f2;
+    width: 310px;
+    height: 43px;
+    padding-bottom: 10px;
+    padding: 7px 0px;
+    cursor: pointer;
+    background: white;
+    position: relative;
+    
+    /* border-radius: 5px; */
+}
+aside>ul>li:hover{
+    width: 312px;
+    height: 43px;
+    background-color: #D8D8D8;
+    color: black;
+}
+aside>ul>li:hover>.li_menu{
+ display: block;
+}
+aside>ul>li>i{
+    position: absolute;
+    top: 31%;
+    left: 96%;
+}
+aside>ul>li>a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #373434;
+}
+aside>ul>li:hover>a{
+    font-size: 20px;
+    font-weight: 900;
+    color: #373434;
+}
+aside>ul>li>img{
+   /* text-align: unset; */
+   width: 20px;
+   height: 20px;
+   margin-left: 10px;
+   margin-right: 20px;
+}
+
+/* ---------------------------------------------- */
+.li_menu{
+    display: none;
+}
+.menu{
+    width: 344%;
+    height: 645px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid red;
+    margin-bottom: 100px;
+    position: absolute;
+    z-index: 2;
+    left: 101%;
+    top: 11%;
+    border-radius: 8px;
+    background: wheat;
+   }
+.menuthem{
+    top: unset;
+     top: -90% ;
+}
+.menuthem1{
+    top: unset;
+     top: -190% ;
+}
+.menuthem2{
+    top: unset;
+     top: -290% ;
+}
+.menuthem3{
+    top: unset;
+     top: -390% ;
+}
+.menuthem4{
+    top: unset;
+     top: -490% ;
+}
+.menu>ul{
+    margin-top: 10px;
+    margin-left: 30px;
+    list-style: none;
+    font-size: 16px;
+    width: 22%;
+}
+
+.menu>ul>li{
+    margin-bottom: 6.5px;
+   }
+.menu>ul>li>a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+   }
+.menu>ul>.menu_dau{
+     margin-bottom: 20px;
+     font-weight: bold;
+   }
+   /* --------------------------------------------- */
+aside{
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+aside>h2{
+    margin-top: 10px;
+}
+table{
+    margin-top: 50px;
+    width: 70%;
+    font-size: 18px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+.table2{
+    margin-top: unset;
+    border-top: unset;
+    border-bottom: unset;
+    border-bottom: 2px dashed #898484;
+}
+.table2 tr td{
+    width: 14%;
+    margin-top: unset;
+    border-top: unset;
+    border-bottom: unset;
+    margin-left: 10px;
+    text-align: center;
+    padding: 0 10px;
+    font-size: 20px;
+}
+.table2 tr .mota{
+    width: 20%;
+}
+.table2 tr td img{
+    width: 100%;
+}
+.table2 tr td p{
+   font-size: 16px;
+}
+.table2 tr td .gia{
+    font-size: 20px;
+ }
+.table2 tr td input{
+    width: 60px;
+    height: 34px;
+    text-align: center;
+}
+th{
+   width: 14%;
+}
+.mota1{
+    width: 20%;
+ }
+.thanhtien{
+    width: 28%;
+    top: 88px;
+    right: 0;
+    position: absolute;
+} 
+.thanhtien .thanhtientong{
+    width: 100%;
+    font-size: 20px;
+}
+.thanhtien .thanhtientong .thanhtiengia{
+    float: right;
+    font-size: 25px;
+}
+.thanhtienthanhtoan{
+    margin-top: 25px;
+    width: 100%;
+}
+.thanhtienthanhtoan button{
+    border: 1px solid #e02027;
+    padding: 13px 20px;
+    border-radius: 20px;
+    background: #e02027;
+    color: white;
+    cursor: pointer;
+}
+.thanhtienthanhtoan button a{
+    text-decoration: none;
+    color: white;
+}
+.thanhtienthanhtoan .buttontieptucmua:hover{
+    border: 1px solid #e02027;
+    background: white;
+    color: unset;
+    
+}
+.thanhtienthanhtoan .buttontieptucmua:hover a{
+    color: black;
+    
+}
+.thanhtienthanhtoan .thanhtoan{
+    float: right;
+    padding: 13px 40px;
+    background: white;
+    color: unset;
+}
+.chuthich{
+    margin-top: 15px;
+}
+.chuthich textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+/* ------------------------------------------- */
+footer{
+    clear: both;
+    width: 100%;
+    margin-top: 60px;
+ }
+ footer #footer_1{
+    padding-top: 50px;
+    text-align: center;
+    
+    min-height: 300px;
+    background-color: rgb(242, 242, 242);
+ }
+ footer #footer_1 .list_location .item_location, .item_convenient{
+    float: left;
+    width: 300px;
+    text-align: left;
+    margin: 10px 30px;
+ }
+ .item_location h5{
+    font-size: 18px;
+    color: white;
+    background-color: #9A4545;
+    padding: 5px 5px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+ }
+ .item_location a{
+    font-weight: bold;
+ }
+ .item_convenient img{
+    float: left;
+    margin-top: 10px;
+    width: 32px;
+ }

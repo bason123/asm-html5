@@ -1,0 +1,61 @@
+.menu{
+    list-style: none;
+    display: flex;
+}
+.menu li {
+    padding: 20px;
+}
+.btn-toggle-menu i {
+   display: none;
+}
+nav input {
+    display: none;
+ }
+ .menu li a{
+    text-decoration: none;
+}
+
+/* nav input{} */
+
+.menu li a:hover{
+    color: #fff;
+    background-color: black;
+}
+.menu li a{
+    display: block;
+    padding: 8px 15px;
+    font-weight: bold;
+    border-radius: 15px;
+    transform: 0.4s;
+}
+.menu li.active a{
+    color: #fff;
+    background-color: black;
+}
+
+@media screen and (max-width: 768px) {
+    nav{
+        flex-wrap: wrap;
+    }
+    .menu{
+        display: none;
+    }
+    .menu li a{
+        text-decoration: none;
+    }
+    .btn-toggle-menu{
+        display: unset;
+    }
+    
+    #toggle-menu:checked + .menu{
+        display: block;
+        width: 100%;
+    }
+
+    .btn-toggle-menu i {
+        display: block;
+     }
+     nav input{
+        display: none;
+     }
+}

@@ -1,0 +1,891 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ background-color: #f4f8fa;
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+header{
+    height: 195px;
+    background: white;
+    
+}
+header .anhbia{
+    width: 100%;
+}
+.header_item{
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+.logo{
+    width: 93px;
+    height: 61px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.thetim{
+    width: 700px;
+    margin-left: 300px;
+    margin-top: -45px;
+}
+.thetim input{
+    width: 70%;
+    height: 35px;
+    padding-left: 10px ;
+}
+.thetim button{
+   width: 18%;
+   height: 35px;
+   margin-left: -15px;
+   background: red;
+   border-radius: 5px;
+   border: none;
+   color: white;
+}
+.thetim button i{
+    margin-right: 10px;
+}
+.canhan {
+    width: 15%;
+    height: 66px;
+    position: absolute;
+    top: 26%;
+    left: 71%; 
+    font-size: 18px;
+    
+}
+.canhan ul{
+    margin-top: 8px;
+    margin-left: 45px; 
+}
+.canhan>ul>li{
+    list-style: none;
+}
+.canhan>ul>li:hover>ul{
+   display: block;
+}
+.canhan>ul>li>ul{
+    position: absolute;
+    z-index: 2;
+    background: rgb(255, 255, 255);
+    list-style: none;
+    width: 300px;
+    border-radius: 5px;
+    margin-left: unset;
+    box-shadow: -5px 0px 15px rgb(75, 73, 73);
+    display: none;
+    margin-top: unset;
+}
+.canhan>ul>li>ul>li{
+    width: 93%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.canhandangky{
+    background: rgb(255, 162, 0);
+}
+.canhanfacebook{
+    background: rgb(51, 0, 255);
+}
+.canhangoogle{
+    background: rgb(246, 16, 16);
+}
+.canhanfacebook>a{
+    color: white;
+    font-weight: bold;
+}
+.canhangoogle>a{
+    color: white;
+    font-weight: bold;
+}
+.canhan>ul>li>ul>li>a{
+    text-decoration: none; 
+    font-size: 18px;
+}
+.canhan>ul>li>ul>li>a>i{
+    margin-right: 15px;
+}
+
+.canhan #icon_user{
+    height: 37px;
+    position: absolute;
+    top: 12%;
+    margin-left: 8px;
+}
+.canhan span{
+    position: absolute;
+    left: 23%;
+    top: 10%;
+}
+
+.canhan #icon_down{
+    position: absolute;
+    left: 49%;
+    top: 40%; 
+    margin-left: 18px;
+    
+}
+.giohang{
+    position: relative;
+    position: absolute;
+    top: 49%;
+    right: 7%;
+}
+.giohang>a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.header_sp{
+    position: absolute;
+    width: 310px;
+    height: 39px;
+    background: rgb(80, 80, 80);
+    top: 143%;
+    border-radius: 5px;
+}
+.header_sp> .header_sp1{
+    position: relative;
+
+}
+.header_sp1> img{
+    position: absolute;
+    width: 38px;
+    height: 35px;
+    left: 30px;
+    top: 1px;
+}
+.header_sp1>span{
+    position: absolute;
+    margin-left: 16px;
+    padding: 5px;
+    font-size: 17px;
+    color: white;
+    left: 54px;
+    top: 4px;
+}
+.header_item> ul{
+   list-style: none;
+   display: flex;
+   position: absolute;
+   top: 143%;
+   left: 24%;
+   background: #CCCCCC;
+   border-radius: 5px;
+}
+.item1{
+    margin-left: 52px;
+ }
+.header_item> ul> li{
+    /* padding-left: 30px; */
+    font-size: 20px;
+    padding: 8px;
+ }
+
+ 
+
+section{
+    width: 90%;
+    margin: auto;
+    position: relative;
+ }
+aside>ul{
+    width: 22%;
+    list-style: none;
+    background: red;
+    border-radius: 5px;
+}
+aside>ul>li{
+    border-bottom:1px solid #f2f2f2;
+    width: 310px;
+    height: 43px;
+    padding-bottom: 10px;
+    padding: 7px 0px;
+    cursor: pointer;
+    background: white;
+    position: relative;
+    
+    /* border-radius: 5px; */
+}
+aside>ul>li:hover{
+    width: 312px;
+    height: 43px;
+    background-color: #D8D8D8;
+    color: black;
+}
+aside>ul>li:hover>.li_menu{
+ display: block;
+}
+aside>ul>li>i{
+    position: absolute;
+    top: 31%;
+    left: 96%;
+}
+aside>ul>li>a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #373434;
+}
+aside>ul>li:hover>a{
+    font-size: 20px;
+    font-weight: 900;
+    color: #373434;
+}
+aside>ul>li>img{
+   /* text-align: unset; */
+   width: 20px;
+   height: 20px;
+   margin-left: 10px;
+   margin-right: 20px;
+}
+
+/* ---------------------------------------------- */
+.li_menu{
+    display: none;
+}
+.menu{
+    width: 344%;
+    height: 645px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid red;
+    margin-bottom: 100px;
+    position: absolute;
+    z-index: 2;
+    left: 101%;
+    top: 11%;
+    border-radius: 8px;
+    background: wheat;
+   }
+.menuthem{
+    top: unset;
+     top: -90% ;
+}
+.menuthem1{
+    top: unset;
+     top: -190% ;
+}
+.menuthem2{
+    top: unset;
+     top: -290% ;
+}
+.menuthem3{
+    top: unset;
+     top: -390% ;
+}
+.menuthem4{
+    top: unset;
+     top: -490% ;
+}
+.menu>ul{
+    margin-top: 10px;
+    margin-left: 30px;
+    list-style: none;
+    font-size: 16px;
+    width: 22%;
+}
+
+.menu>ul>li{
+    margin-bottom: 6.5px;
+   }
+.menu>ul>li>a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+   }
+.menu>ul>.menu_dau{
+     margin-bottom: 20px;
+     font-weight: bold;
+   }
+   /* --------------------------------------------- */
+
+section>#banner_slide{
+    position: absolute;
+    width: 76%;
+    top: 8px;
+    left: 24%;
+
+}
+section>#banner_slide .slide1{
+   width: 	730px;
+   height:  461px;
+   border-radius: 10px;
+}
+section>#banner_slide .slide2{
+    width: 313px;
+    height: 228px;
+    float: right;
+    border-radius: 10px;
+ }
+ section>#banner_slide .slide3{
+    width: 315px;
+    height: 229px;
+    float: right;
+    margin-top: -232px;
+ }
+ section>#banner_bot{
+    position: absolute;
+    width: 76%;
+    top: 75%;
+    left: 24%;
+}
+section>#banner_bot .bot3{
+    width: 322px;
+    height: 166px;
+}
+section>#banner_home{
+    position: absolute;
+    width: 100%;
+    top: 106%;
+}
+section>#banner_home>.hom1{
+    width: 342px;
+    height: 155px;
+}
+article{
+    width: 90%;
+    margin: auto;
+    /* position: relative; */
+}
+.banchay{
+    display: flex;
+    margin-top: 224px;
+    background: white;
+    position: relative;
+}
+.banchay>h2{
+    padding: 13px;
+    background:red;
+    color: white;
+}
+.banchay>p::after{
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    margin-left: 4px;
+    border-top: 33px solid transparent;
+    border-left: 20px solid;
+    border-left-color: red;
+    border-right: 0 solid transparent;
+    border-bottom: 23px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 27%;
+}
+.banchay>ul{
+    list-style: none;
+    display: flex;
+    position: absolute;
+    top: 20px;
+    right: 2%;
+}
+.banchay>ul>li{
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.icon{
+    position: absolute;
+    width: 35px;
+    height: 170px;
+    top: 30px;
+    right: -40px;
+    display: flex;
+    flex-wrap: wrap;
+    transition: 1s;
+    /* opacity: 0; */
+}
+.icon>a{
+    opacity: 0;
+}
+ .item:hover>.icon>.icon_son{
+     /* transition: 0.5;  */
+     opacity: 1;
+    transition: 0.1s;
+    
+} 
+.item:hover>.icon>.icon_son1{
+    /* transition: 0.5;  */
+    opacity: 1;
+   transition: 1.7s;
+   
+} 
+.item:hover>.icon>.icon_son2{
+    opacity: 1;
+    /* transition: 0.5;  */
+   transition: 2.3s;
+   
+} 
+.item:hover>.icon>.icon_son3{
+    opacity: 1;
+    /* transition: 0.5;  */
+   transition: 3.7s;
+   
+} 
+.icon>.icon_son:hover>i{
+    color: white;
+    transform: rotate(360deg);
+    transition: transform 1s;
+}
+.icon>.icon_son1:hover>i{
+    color: white;
+    transform: rotate(360deg);
+    transition: transform 1s;
+}
+.icon>.icon_son2:hover>i{
+    color: white;
+    transform: rotate(360deg);
+    transition: transform 1s;
+}
+.icon>.icon_son3:hover>i{
+    color: white;
+    transform: rotate(360deg);
+    transition: transform 1s;
+}
+.item:hover>.icon{
+    /* opacity: 1;  */
+    top: 10px;
+    right: 10px;
+}
+.icon>a{
+    padding-top: 8px;
+    width: 100%;
+    height: 35px;
+    content: '';   
+    background: #373434;
+    border-radius: 50%;
+    margin-top: 8px;
+    color: white;
+}
+.icon>a>i{
+  font-size: 13px;
+}
+
+.list_item{
+    margin-top: 20px;
+}
+
+.item{
+    position: relative;
+    width: 220px;
+    height: 310px;
+    float: left;
+    align-items: center;
+    text-align: center;
+    margin: 0px 5px;
+    background: #FFF;
+}
+.item:hover{
+    box-shadow: -5px 0px 15px rgb(75, 73, 73);
+ }
+.item a img{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+.item p{
+    margin: 10px;
+}
+.item span{
+    color: red;
+    padding-top: 10px;
+}
+.item img:hover{
+    cursor: pointer;
+}
+.item:hover img{
+    width: 205px;
+    height: 205px;
+}
+.item p:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.pc{
+    height: 54px;
+    display: flex;
+    margin-top: 354px;
+    background: white;
+    position: relative;
+    margin-left: 0px;
+    margin-bottom: 22px;
+}
+.pc>h2{
+    padding: 13px;
+    background:red;
+    color: white;
+}
+
+.pc>.pcvanphong::after{
+left: unset;
+left: 15%;
+margin-left: 4px;
+}
+.pc>.pcgaming::after{
+    left: unset;
+    left: 16%;
+    margin-left: 11px;
+}
+.pc>.pclaptopvp::after{
+    left: unset;
+    left: 19%;
+    margin-left: 14px;
+    }
+.pc>.pcmanhinh::after{
+        left: unset;
+        left: 10%;
+        margin-left: 15px;
+}
+.pc>.pccpuintel::after{
+            left: unset;
+            left: 11%;
+            margin-left: 3px;
+}
+.pc>.pccpuamd::after{
+    left: unset;
+    left: 10%;
+    margin-left: 1px;
+}
+.pc>p::after{
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    margin-left: 2.5px;
+    border-top: 30px solid transparent;
+    border-left: 20px solid;
+    border-left-color: red;
+    border-right: 0 solid transparent;
+    border-bottom: 24px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 12%;
+}
+.pc>ul{
+    list-style: none;
+    display: flex;
+    position: absolute;
+    top: 13px;
+    right: 2%;
+}
+.pc>ul>li{
+    margin-left: 20px;
+    font-size: 13px;
+    border: 1px solid red;
+    padding: 6px;
+    border-radius: 109px;
+    cursor: pointer;
+}
+.pc>ul>li:hover{
+   color: red;
+   font-weight: 500px;
+   /* font-size: 14px; */
+}
+
+.anhnenthan>img{
+    width: 100%;
+    height: 153px;
+}
+
+footer{
+    clear: both;
+    width: 100%;
+    margin-top: 365px;
+}
+footer #footer_1{
+    padding-top: 50px;
+    text-align: center;
+    
+    min-height: 300px;
+    background-color: white;
+}
+footer #footer_1 .list_location .item_location, .item_convenient{
+    float: left;
+    width: 300px;
+    text-align: left;
+    margin: 10px 30px;
+}
+.item_location h5{
+    font-size: 18px;
+    color: white;
+    background-color: #9A4545;
+    padding: 5px 5px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.item_location a{
+    font-weight: bold;
+}
+.item_convenient img{
+    float: left;
+    margin-top: 10px;
+    width: 32px;
+}
+
+
+@media screen and (max-width: 400px){
+    header{
+        height: 100px;
+    }
+    .header_item{
+        width: 100%;
+    }
+    .canhan,ul, .thetim>button>i, .header_item>ul, #banner_slide>.slide2, #banner_slide>.slide3, #banner_bot
+    , #banner_home, .banchay>p, .pc{
+        display: none;
+    }
+    .logo{
+        width: 20%;
+        height: 15%;
+        margin-left: 2px;
+        margin-top: 10px;
+    }
+    .thetim{
+        width: 40%;
+        margin-left: 30%;
+        margin-top: -15%;
+        position: relative;
+    }
+    .thetim>button{
+        font-size: 63%;
+        width: 35%;
+        height: 29px;
+        position: absolute;
+        top: 27%;
+    }
+    .thetim>input{
+        margin-top: 10px;
+        height: 30px;
+    }
+    .giohang{
+        top: 33%;
+        right: 2%;
+    }
+    .header_sp{
+        width: 100%;
+    }
+    .header_sp1 > span{
+        font-size: 102%;
+    }
+    .banchay>ul{
+        position: unset;
+        flex-wrap: wrap;
+    }
+    .banchay>h2{
+        font-size: 139%;
+        width: 100%;
+    }
+    .banchay{
+        flex-wrap: wrap;
+    }
+    .anhnenthan > img{
+        height: 100px;
+        margin-top: 23px;
+    }
+    footer{
+      font-size: 53%;
+    }
+    .item{
+        margin-top: 10px;
+    }
+    section>#banner_slide{
+        width: 100%;
+        top: 19px;
+        left: 0%;
+    }
+    section>#banner_slide>.slide1{
+        width: 100%;
+        height: 199px;
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 700px) and (min-width: 400px){
+    header{
+        height: 122px;
+    }
+    .header_item{
+        width: 100%;
+    }
+    .canhan,ul, .thetim>button>i, .header_item>ul, #banner_slide>.slide2, #banner_slide>.slide3, #banner_bot
+    , #banner_home, .banchay>p, .pc{
+        display: none;
+    }
+    .logo{
+        width: 20%;
+        height: 15%;
+        margin-left: 2px;
+        margin-top: 10px;
+    }
+    .thetim{
+        width: 40%;
+        margin-left: 30%;
+        margin-top: -11%;
+        position: relative;
+    }
+    .thetim>button{
+        font-size: 63%;
+        width: 35%;
+        height: 29px;
+        position: absolute;
+        top: 27%;
+    }
+    .thetim>input{
+        margin-top: 10px;
+        height: 30px;
+    }
+    .giohang{
+        top: 33%;
+        right: 2%;
+    }
+    .header_sp{
+        width: 100%;
+        top: 138%;
+    }
+    .header_sp1 > span{
+        font-size: 102%;
+    }
+    .banchay>ul{
+        position: unset;
+        flex-wrap: wrap;
+    }
+    .banchay>h2{
+        font-size: 139%;
+        width: 100%;
+    }
+    .banchay{
+        flex-wrap: wrap;
+    }
+    .anhnenthan > img{
+        height: 100px;
+        margin-top: 23px;
+    }
+    footer{
+      font-size: 53%;
+    }
+    .item{
+        margin-top: 10px;
+    }
+    section>#banner_slide{
+        width: 100%;
+        top: 19px;
+        left: 0%;
+    }
+    section>#banner_slide>.slide1{
+        width: 100%;
+        height: 199px;
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 950px) and (min-width: 700px){
+    header{
+        height: 127px;
+    }
+    .header_item{
+        width: 90%;
+    }
+    .canhan>#icon_down,ul, .thetim>button>i, #banner_slide>.slide3, #banner_bot
+    , #banner_home, .banchay>p, .pc{
+        display: none;
+    }
+    .logo{
+        width: 10%;
+        height: 15%;
+        margin-left: 2px;
+        margin-top: 10px;
+    }
+    .thetim{
+        width: 40%;
+        margin-left: 30%;
+        margin-top: -6%;
+        position: relative;
+    }
+    .thetim>button{
+        font-size: 63%;
+        width: 26%;
+        height: 29px;
+        position: absolute;
+        top: 27%;
+    }
+    .thetim>input{
+        margin-top: 10px;
+        height: 30px;
+    }
+    .giohang{
+        top: 33%;
+        right: 2%;
+    }
+    .header_sp{
+        width: 33%;
+        top: 112%;
+        height: 70%;
+    }
+    .header_sp1 > span{
+        font-size: 93%;
+    }
+    .banchay>ul{
+        position: unset;
+        flex-wrap: wrap;
+    }
+    .banchay>h2{
+        font-size: 139%;
+        width: 100%;
+    }
+    .banchay{
+        flex-wrap: wrap;
+    }
+    .anhnenthan > img{
+        height: 100px;
+        margin-top: 23px;
+    }
+    footer{
+      font-size: 53%;
+    }
+    .item{
+        margin-top: 10px;
+    }
+    section>#banner_slide{
+        width: 100%;
+        top: 18px;
+        left: 0%;
+    }
+    section>#banner_slide>.slide1{
+        width: 50%;
+        height: 199px;
+    }
+    section>#banner_slide>.slide2{
+        width: 50%;
+        height: 199px;
+    }
+    .canhan{
+        font-size: 75%;
+    }
+    .canhan>#icon_user{
+        width: 23%;
+        height: 43%;
+        top: 17%;
+        margin-left: 1px;
+    }
+    .header_item > ul{
+        width: 65%;
+        top: 111%;
+        left: 34%;
+    }
+    .header_item > ul>li{
+        font-size: 64.5%;
+        padding: 7px;
+        margin: 5px;
+    }
+}
